@@ -8,7 +8,7 @@ It's responsive, normaly...
 
 ## Link to the app
 
-[Weather-app](https://luuduc34.github.io/weather-app/)
+[Weather-app](https://luuduc34.github.io/modern-javascript-application/)
 
 ## Language used
 
