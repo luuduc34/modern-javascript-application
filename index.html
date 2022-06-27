@@ -5,19 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Weather Application</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./src/css/style.min.css">
     <script src="https://kit.fontawesome.com/de0135f311.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>    
 </head>
 <body>
     <main>
         <div class="wrapper">
             <div class="title">Application Météo</div>
             <section class="input-block">
-                <input type="text" placeholder="Entrez le nom d'une ville" spellcheck="false" required>
-               
+                <input type="text" placeholder="Entrez le nom d'une ville" spellcheck="false" required>               
             </section>
-
             <div class="visited"></div>
             <section class="top-sect weather-block">
                 <div class="location">
@@ -30,18 +28,15 @@
                         <span class="numb"></span>
                         <span class="deg">°</span>C
                     </div>
-                    <div class="weather"></div>
-                    
+                    <div class="weather"></div>                    
                     <div class="minmax-top">
                         <p>MIN</p>
-                        <div class="temp min">
-                            
+                        <div class="temp min">                            
                             <span class="numb"></span>
                             <span class="deg">°</span>C
                         </div>
                         <p>MAX</p>
-                        <div class="temp max">
-                            
+                        <div class="temp max">                            
                             <span class="numb"></span>
                             <span class="deg">°</span>C
                         </div>
@@ -50,26 +45,22 @@
             </section>
             <div class="separator1"></div>
             <div>
-                <canvas id="myChart"></canvas>
+                <canvas id="myChart" height="80"></canvas>
             </div>
             <div class="separator2"></div>
-            <section class="weather-block forecast">      
-                
+            <section class="weather-block forecast">               
                 <div class="two">
                     <div class="day-two"><span></span></div>
-                    <div class="icon"><img class="icon2" src="" alt="Weather icon"></div>
-                    
+                    <div class="icon"><img class="icon2" src="" alt="Weather icon"></div>                    
                     <div class="weather"></div>
                     <p>min/max</p>
                     <div class="minmax">
-                        <div class="temp min">
-                            
+                        <div class="temp min">                            
                             <span class="numb"></span>
                             <span class="deg">°</span>C
                         </div>
                         <p> / </p>
-                        <div class="temp max">
-                            
+                        <div class="temp max">                            
                             <span class="numb"></span>
                             <span class="deg">°</span>C
                         </div>
@@ -78,19 +69,16 @@
                 <div class="separator"></div>
                 <div class="thre">
                     <div class="day-thre"><span></span></div>
-                    <div class="icon"><img class="icon3" src="" alt="Weather icon"></div>
-                    
+                    <div class="icon"><img class="icon3" src="" alt="Weather icon"></div>                    
                     <div class="weather"></div>
                     <p>min/max</p>
                     <div class="minmax">
-                        <div class="temp min">
-                            
+                        <div class="temp min">                            
                             <span class="numb"></span>
                             <span class="deg">°</span>C
                         </div>
                         <p> / </p>
-                        <div class="temp max">
-                            
+                        <div class="temp max">                            
                             <span class="numb"></span>
                             <span class="deg">°</span>C
                         </div>
@@ -99,20 +87,16 @@
                 <div class="separator"></div>
                 <div class="four">
                     <div class="day-four"><span></span></div>
-                    <div class="icon"><img class="icon4" src="" alt="Weather icon"></div>
-                    
+                    <div class="icon"><img class="icon4" src="" alt="Weather icon"></div>                    
                     <div class="weather"></div>
                     <p>min/max</p>
-                    <div class="minmax">
-                        
-                        <div class="temp min">
-                            
+                    <div class="minmax">                        
+                        <div class="temp min">                            
                             <span class="numb"></span>
                             <span class="deg">°</span>C
                         </div>
                         <p> / </p>
-                        <div class="temp max">
-                            
+                        <div class="temp max">                            
                             <span class="numb"></span>
                             <span class="deg">°</span>C
                         </div>
@@ -121,19 +105,16 @@
                 <div class="separator"></div>
                 <div class="five">
                     <div class="day-five"><span></span></div>
-                    <div class="icon"><img class="icon5" src="" alt="Weather icon"></div>
-                    
+                    <div class="icon"><img class="icon5" src="" alt="Weather icon"></div>                    
                     <div class="weather"></div>
                     <p>min/max</p>
                     <div class="minmax">
-                        <div class="temp min">
-                            
+                        <div class="temp min">                            
                             <span class="numb"></span>
                             <span class="deg">°</span>C
                         </div>
                         <p> / </p>
-                        <div class="temp max">
-                            
+                        <div class="temp max">                            
                             <span class="numb"></span>
                             <span class="deg">°</span>C
                         </div>
@@ -142,6 +123,6 @@
             </section>
         </div>
     </main>
-    <script src="script.js"></script>
+    <script type="module" src="index.js"></script>
 </body>
 </html>

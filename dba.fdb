@@ -1,0 +1,16 @@
+create generator increment;
+set generator increment to 0;
+
+set term ^;
+create trigger auto_inc for noms
+before insert
+as 
+begin
+new.matricule = gen_id(increment,1);
+end^
+set term;^
+
+alter table t_noms
+add constraint prix_sup
+check (prix>0);
+

@@ -1,0 +1,32 @@
+{
+  "name": "modern-javascript-application",
+  "version": "1.0.0",
+  "description": "This is an app who will display today's weather (with a 24h temp forecast graph) and 4 days forecast.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luuduc34/modern-javascript-application.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luuduc34/modern-javascript-application/issues"
+  },
+  "homepage": "https://github.com/luuduc34/modern-javascript-application#readme",
+  "devDependencies": {
+    "eslint": "^8.18.0",
+    "parcel-bundler": "^1.12.5"
+  },
+  "browserslist": [
+    "last 1 chrome versions"
+  ],
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}

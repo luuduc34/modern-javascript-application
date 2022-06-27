@@ -42,8 +42,7 @@ body{
 }
 .wrapper .visited{
     font-size: 12px;
-    margin: 0 10px 10px;
-    
+    margin: 0 10px 10px;    
 }
 .wrapper .input-block{
     display: flex;
